@@ -1,0 +1,17 @@
+
+services:
+  postgres:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: SUC_DB_V2
+    command: -c 'max_connections=2000'
+    network_mode: bridge
+    ports:
+      - 5432:5432
+    volumes:
+      - ~/apps/postgres_SUC2024_V2:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=INB

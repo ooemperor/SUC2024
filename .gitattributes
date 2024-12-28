@@ -1,0 +1,2 @@
+* linguist-detectable=true
+*.pbix filter=lfs diff=lfs merge=lfs -text
