@@ -1,4 +1,4 @@
-# Seminar Urban Commputing 2024
+# Seminar Urban Computing 2024
 
 This repository is used for the Seminar Urban Computing 2024 for the project "Housing Data made visible"
 
